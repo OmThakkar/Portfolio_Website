@@ -1,0 +1,322 @@
+/* Colors  */
+
+:root {
+    --text-color: #fafafa;
+    --background-color: #050505;
+    --primary-color: #c5c6c3;
+    --secondary-color: #1a1a19;
+    --accent-color: #b3b4b1;
+  }
+  
+  .primary_background {
+    background-color: var(--primary-color);
+  }
+  
+  .secondary_background {
+    background-color: var(--secondary-color);
+  }
+  
+  .accent_background {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+  }
+  
+  .accent_color {
+    color: var(--accent-color);
+  }
+  
+  /* Heading  */
+  
+  .heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+  }
+  
+  .sub_heading {
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px 0 50px;
+  }
+  
+  .heading_bold {
+    font-weight: 700;
+  }
+  
+  .heading_medium {
+    font-weight: 500;
+  }
+  
+  /* Body  */
+  
+  .body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  .body_regular {
+    font-weight: 400;
+  }
+  
+  .body_medium {
+    font-weight: 500;
+  }
+  
+  .body_bold {
+    font-weight: 600;
+  }
+
+  body{
+    background-color:var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Navbar */
+  #navigation_bar {
+    padding: 0 100px;
+  }
+  
+  .nav-link {
+    color: var(--text-color);
+    margin: 0 10px;
+  }
+  
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+  
+  .nav-button {
+    margin: 0 10px;
+  }
+  
+  .nav-button.primary_background:hover,
+  .hero_button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .nav-button.secondary_background:hover {
+    background-color: var(--primary-color);
+  }
+  
+  #nav-icon {
+    height: 25px;
+  }
+
+  .btn{
+    border: none;
+  }
+  
+  /* Hero Page  */
+  
+  #hero_page {
+    padding: 100px;
+  }
+  
+  #hero_page h1 {
+    margin-bottom: 30px;
+  }
+  
+  .hero_button {
+    margin-top: 30px;
+  }
+  
+  #hero-img {
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+      rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 50%;
+  }
+  
+  /* About Me  */
+  
+  #about_me {
+    padding: 50px 100px;
+  }
+  
+  #about_me h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .about_box {
+    border-radius: 10px;
+    padding: 1% 3%;
+    line-height: 1.5;
+  }
+  
+  .about_list {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 5px;
+  }
+  
+  .list_item {
+    margin: 15px 0;
+    padding: 0;
+  }
+  
+  /* Skills  */
+  
+  #skills {
+    padding: 50px 100px;
+    text-align: center;
+  }
+  
+  #skills h4 {
+    font-size: 2rem;
+  }
+  
+  #skills_img {
+    height: 65px;
+  }
+  
+  .skill_box {
+    padding: 3%;
+    margin: 3% 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  
+  .tool_set,
+  .technology_set {
+    width: 70%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  #skill_img {
+    height: 80px;
+    margin: 10px;
+  }
+  /* Projects  */
+  
+  /* Contact Me  */
+  
+  /* CSS Queries  */
+  @media (max-width: 992px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+  
+    .body {
+      font-size: 1rem;
+    }
+  
+    .nav-button {
+      margin: 10px 8px;
+    }
+  
+    #hero-img {
+      height: 250px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #navigation_bar {
+      padding: 0 20px;
+    }
+  
+    #hero_page {
+      padding: 50px 20px;
+    }
+  
+    #hero_page h1 {
+      margin-bottom: 10px;
+    }
+  
+    .hero_button {
+      margin-top: 10px;
+    }
+  
+    #about_me {
+      padding: 50px 50px;
+    }
+  
+    #skills_img {
+      height: 50px;
+    }
+  
+    #skill_img {
+      height: 60px;
+      margin: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #navigation_bar {
+      padding: 0 5px;
+    }
+  
+    #brand_logo {
+      height: 45px;
+    }
+  
+    #hero_page {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    #hero-img {
+      height: 200px;
+      margin-bottom: 20px;
+    }
+  
+    #about_me {
+      padding: 20px;
+    }
+  
+    #about_me h2 {
+      font-size: 2.5rem;
+    }
+  
+    .about_box_grid {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .about_list {
+      list-style-type: none;
+      margin: 0px;
+      padding: 5px;
+    }
+  
+    .list_item {
+      margin: 10px;
+      padding: 0;
+    }
+  
+    #skills {
+      padding: 50px 20px;
+      text-align: center;
+    }
+  
+    #skills h4 {
+      font-size: 1.8rem;
+    }
+  
+    #skills_img {
+      height: 40px;
+    }
+  
+    .skill_box {
+      margin: 10% 0;
+      padding: 5% 3%;
+    }
+  
+    .tool_set,
+    .technology_set {
+      width: 100%;
+      margin: 5% auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  
+    #skill_img {
+      height: 50px;
+      margin: 10px;
+    }
+  }
+  
