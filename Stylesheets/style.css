@@ -1,0 +1,118 @@
+:root{
+    --text-color: #030302;
+    --background-color: #ffffff;
+    --primary-color: #c5c6c3;
+    --secondary-color: #dcdcdb;
+    --accent-color: #767873;
+}
+
+.primary_background{
+    background-color: var(--primary-color);
+}
+
+.secondary_background{
+    background-color: var(--secondary-color);
+}
+
+.accent_background{
+    color: var(--accent-color);
+}
+
+.heading_bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.body_medium{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+}
+/* html{
+    font-size: 10px;
+} */
+
+/* Navbar */
+#navigation_bar{
+    padding: 0 20px;
+}
+
+.nav-link{
+    color: var(--text-color);
+    margin: 0 10px;
+}
+
+.nav-link:hover{
+    color: var(--accent-color);
+}
+
+.nav-button{
+    margin: 0 10px;
+}
+
+.nav-button.primary_background:hover{
+    background-color: var(--secondary-color);
+}
+
+.nav-button.secondary_background:hover{
+    background-color: var(--primary-color);
+}
+
+#nav-icon{
+    height: 25px;
+}
+
+/* Hero Page  */
+
+#hero_page{
+    border: 2px solid black;
+    padding: 10px 50px;
+}
+
+#hero-img{
+    height: 350px;
+}
+
+/* About Me  */
+
+/* Skills  */
+
+/* Projects  */
+
+/* Contact Me  */
+
+/* CSS Queries  */
+@media (max-width: 992px){
+    .nav-button{
+        margin: 10px 8px;
+    }
+
+    #hero-img{
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px){
+    #hero_page{
+        text-align: center;
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 576px){
+    #navigation_bar{
+        padding: 0 5px;
+    }
+
+    #brand_logo{
+        height: 45px;
+    }
+
+    #hero-img{
+        height: 250px;
+    }
+}
