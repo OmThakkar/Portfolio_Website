@@ -202,6 +202,62 @@
 }
 
 /* Projects  */
+#projects {
+  margin: 3% 0;
+  padding: 20px 10%;
+}
+
+.project_container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.card{
+  border: none;
+  width: 23rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px 0px;
+  transition: box-shadow .5s ease-in-out;
+}
+
+#card_image{
+  border-bottom: 2px solid rgb(243, 243, 243);
+}
+
+.action_buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px 0;
+  
+}
+
+.action_button{
+  color: var(--text-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.action_button:hover{
+  transform: scale(1.05);
+  transition: .3s ease-in-out;
+}
+
+#action_icons{
+  height: 35px;
+}
 
 /* Contact Me  */
 
@@ -240,6 +296,10 @@
   }
 
   #skills{
+    padding: 0 50px;
+  }
+
+  #projects{
     padding: 0 50px;
   }
 }
@@ -292,6 +352,10 @@
 
   #head_icon {
     height: 50px;
+  }
+
+  #projects{
+    padding: 20px;
   }
 }
 
@@ -361,5 +425,18 @@
 
   #head_icon {
     height: 40px;
+  }
+
+  #projects {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .project_container{
+    gap: 20px;
+  }
+
+  .card{
+    margin: 10px 0;
   }
 }
