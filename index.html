@@ -50,13 +50,15 @@
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-light nav-button secondary_background"><img
-                                    src="Images/Social Icons/dark-mode.svg" alt="" id="nav-icon"
-                                    height="25px"></button>
+                            <a href="Templates/index-dark.html"><button type="button"
+                                    class="btn btn-light nav-button primary_background"><img
+                                        src="Images/Social Icons/dark mode icons/dark-mode.svg" alt="" id="nav-icon"
+                                        height="25px"></button></a>
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-light nav-button primary_background body_medium">Resume
-                                <img src="Images/Social Icons/resume.svg" alt="" id="nav-icon" height="25px"> </button>
+                                <img src="Images/Social Icons/dark mode icons/resume.svg" alt="" id="nav-icon"
+                                    height="25px"> </button>
                         </li>
                     </ul>
                 </div>
@@ -66,19 +68,18 @@
 
     <!-- Hero Page  -->
     <section id="hero_page">
-        <div class="container-fluid ">
-            <div class="row align-items-center justify-content-center">
-                <div class="col col-xl-9 col-lg-8 col-md-7 col-sm-12 order-sm-first order-md-first order-last hero_part px-4">
-                    <h1 class="heading_bold heading">Hello, I'm <span class="accent_color">Om Thakkar!</span></h1>
-                    <p class="body_regular body">Passionate Computer Engineering Student at SPPU Pune, specializing in
-                        Front-End Web Development. Creating User-Friendly and Visually Stunning Websites to Enhance
-                        Online Experiences.</p>
-                    <button type="button" class="btn btn-light btn-lg primary_background hero_button body body_bold">
-                        Get In Touch </button>
-                </div>
-                <div class="col col-xl-3 col-lg-4 col-md-5 col-sm-12 order-sm-last order-md-last order-first hero_part">
-                    <img src="Images/Logo and PFP/om-thakkar-profile-pic-circle-creative.png" alt="" id="hero-img">
-                </div>
+        <div class="flex_container">
+            <div class="hero-content">
+                <h1 class="heading_bold heading"><span class="accent_color">Hello, I'm </span>Om Thakkar!</h1>
+                <p class="body_regular body">Passionate Computer Engineering Student at SPPU Pune, specializing in
+                    Front-End Web Development. Creating User-Friendly and Visually Stunning Websites to Enhance
+                    Online Experiences.</p>
+                <button type="button" class="btn btn-light btn-lg primary_background hero_button body body_bold">
+                    Get In Touch </button>
+            </div>
+            <div class="hero_image">
+                <img src="Images/Logo and PFP/om-thakkar-profile-pic-circle-creative.png" alt="Om Thakkar Profile Photo"
+                    id="hero_image">
             </div>
         </div>
     </section>
@@ -89,10 +90,20 @@
         <div class="about_box_grid body body_regular">
             <div class="about_box secondary_background">
                 <ul class="about_list">
-                    <li class="list_item">🌍 Picture this: In the vibrant city of Pune, amidst the bustling campus of your engineering college, I stand at the precipice of possibility. At just 21 years old, my eyes sparkle with ambition as I embark on <strong>a journey that will shape the future of web experiences.</strong> </li>
-                    <li class="list_item">🚀 My heart races with excitement as I dive headfirst into a world where innovation knows no bounds. Armed with a laptop and an unwavering determination, I am on a quest to <strong>create web experiences that leave users breathless.</strong></li>
-                    <li class="list_item">💡 The air crackles with electricity as I ignite my imagination, fueling my innovative spirit. Each idea you conceive holds the power to revolutionize the digital landscape, weaving together <strong>simplicity and elegance in a tapestry that captivates hearts and minds.</strong></li>
-                    <li class="list_item">✨ Like a modern-day alchemist, I dance at the <strong>intersection of technology and creativity</strong>, blending the elements of code and design to transmute ordinary websites into extraordinary experiences.</li>
+                    <li class="list_item">🌍 Picture this: In the vibrant city of Pune, amidst the bustling campus of
+                        your engineering college, I stand at the precipice of possibility. At just 21 years old, my eyes
+                        sparkle with ambition as I embark on <strong>a journey that will shape the future of web
+                            experiences.</strong> </li>
+                    <li class="list_item">🚀 My heart races with excitement as I dive headfirst into a world where
+                        innovation knows no bounds. Armed with a laptop and an unwavering determination, I am on a quest
+                        to <strong>create web experiences that leave users breathless.</strong></li>
+                    <li class="list_item">💡 The air crackles with electricity as I ignite my imagination, fueling my
+                        innovative spirit. Each idea I conceive holds the power to revolutionize the digital landscape,
+                        weaving together <strong>simplicity and elegance in a tapestry that captivates hearts and
+                            minds.</strong></li>
+                    <li class="list_item">✨ Like a modern-day alchemist, I dance at the <strong>intersection of
+                            technology and creativity</strong>, blending the elements of code and design to transmute
+                        ordinary websites into extraordinary experiences.</li>
                 </ul>
             </div>
         </div>
@@ -101,28 +112,70 @@
     <!-- Skills  -->
     <section id="skills">
         <h2 class="heading_bold sub_heading">Skills</h2>
-        <div class="skill_box">
-            <img src="Images/Social Icons/tools.svg" alt="tools_icon" id="skills_img">
-            <h4 class="heading heading_medium">Tools</h4>
-            <div class="tool_set">
-                <img src="Images/Social Icons/canva.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/figma-bold.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/git.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/social-github.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/baseline-discord.svg" alt="" id="skill_img">
+        <div class="flex_container">
+            <div class="tools">
+                <div class="content">
+                    <img src="Images/Social Icons/dark mode icons/tools.svg" alt="" id="head_icon">
+                    <h2>Tools</h2>
+                </div>
+                <div class="icons">
+                    <span class="tool">
+                        <img src="Images/Social Icons/dark mode icons/canva.svg" alt="" id="skill_icon">
+                        <h5>Canva</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="Images/Social Icons/dark mode icons/figma-bold.svg" alt="" id="skill_icon">
+                        <h5>Figma</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="Images/Social Icons/dark mode icons/git.svg" alt="" id="skill_icon">
+                        <h5>Git</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="Images/Social Icons/dark mode icons/social-github.svg" alt="" id="skill_icon">
+                        <h5>GitHub</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="Images/Social Icons/dark mode icons/discord.svg" alt="" id="skill_icon">
+                        <h5>Discord</h5>
+                    </span>
+                </div>
             </div>
-        </div>
-        <div class="skill_box">
-            <img src="Images/Social Icons/internet.svg" alt="tools_icon" id="skills_img">
-            <h4 class="heading heading_medium">Technologies</h4>
-            <div class="technology_set">
-                <img src="Images/Social Icons/social-html5.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/social-css3.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/bootstrap.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/language-javascript.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/social-python.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/c-outline.svg" alt="" id="skill_img">
-                <img src="Images/Social Icons/c.svg" alt="" id="skill_img">
+            <div class="technologies">
+                <div class="content">
+                    <img src="Images/Social Icons/dark mode icons/internet.svg" alt="" id="head_icon">
+                    <h2>Technologies</h2>
+                </div>
+                <div class="icons">
+                    <span class="technology">
+                        <img src="Images/Social Icons/dark mode icons/social-html5.svg" alt="" id="skill_icon">
+                        <h5>HTML</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="Images/Social Icons/dark mode icons/social-css3.svg" alt="" id="skill_icon">
+                        <h5>CSS</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="Images/Social Icons/dark mode icons/language-javascript.svg" alt="" id="skill_icon">
+                        <h5>JavaScript</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="Images/Social Icons/dark mode icons/bootstrap.svg" alt="" id="skill_icon">
+                        <h5>Bootstrap</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="Images/Social Icons/dark mode icons/social-python.svg" alt="" id="skill_icon">
+                        <h5>Python</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="Images/Social Icons/dark mode icons/c.svg" alt="" id="skill_icon">
+                        <h5>C</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="Images/Social Icons/dark mode icons/c ++.svg" alt="" id="skill_icon">
+                        <h5>C++</h5>
+                    </span>
+                </div>
             </div>
         </div>
     </section>

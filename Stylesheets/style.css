@@ -1,5 +1,4 @@
 /* Colors  */
-
 :root {
   --text-color: #030302;
   --background-color: #ffffff;
@@ -26,16 +25,9 @@
 }
 
 /* Heading  */
-
 .heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
-}
-
-.sub_heading {
-  font-size: 3rem;
-  text-align: center;
-  margin: 30px 0 50px;
 }
 
 .heading_bold {
@@ -46,8 +38,13 @@
   font-weight: 500;
 }
 
-/* Body  */
+.sub_heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0 30px;
+}
 
+/* Body  */
 .body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
@@ -67,7 +64,11 @@
 
 /* Navbar */
 #navigation_bar {
-  padding: 0 100px;
+  padding: 0 10%;
+}
+
+#brand_logo {
+  height: 50px;
 }
 
 .nav-link {
@@ -97,9 +98,15 @@
 }
 
 /* Hero Page  */
-
 #hero_page {
-  padding: 100px;
+  margin: 3% 0;
+  padding: 5% 10%;
+}
+
+.flex_container {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
 }
 
 #hero_page h1 {
@@ -110,17 +117,16 @@
   margin-top: 30px;
 }
 
-#hero-img {
+#hero_image {
   height: 300px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   border-radius: 50%;
 }
 
 /* About Me  */
-
 #about_me {
-  padding: 50px 100px;
+  margin: 3% 0;
+  padding: 20px 10%;
 }
 
 #about_me h4 {
@@ -146,41 +152,47 @@
 }
 
 /* Skills  */
-
 #skills {
-  padding: 50px 100px;
-  text-align: center;
-}
-
-#skills h4 {
-  font-size: 2rem;
-}
-
-#skills_img {
-  height: 65px;
-}
-
-.skill_box {
-  padding: 3%;
   margin: 3% 0;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-  border-radius: 10px;
+  padding: 20px 10%;
 }
 
-.tool_set,
-.technology_set {
-  width: 70%;
-  margin: 5% auto;
+.tools,
+.technologies {
   display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 30px;
   align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  border-radius: 10px;
+  gap: 30px;
 }
 
-#skill_img {
-  height: 80px;
-  margin: 10px;
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
+
+.tool,
+.technology,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#skill_icon {
+  height: 60px;
+}
+
+#head_icon {
+  height: 60px;
+}
+
 /* Projects  */
 
 /* Contact Me  */
@@ -195,12 +207,28 @@
     font-size: 1rem;
   }
 
+  #navigation_bar {
+    padding: 0 50px;
+  }
+
   .nav-button {
     margin: 10px 8px;
   }
 
-  #hero-img {
+  #hero_page {
+    padding: 50px 50px;
+  }
+
+  .flex_container {
+    gap: 50px;
+  }
+
+  #hero_image {
     height: 250px;
+  }
+
+  #about_me {
+    padding: 0 50px;
   }
 }
 
@@ -213,25 +241,45 @@
     padding: 50px 20px;
   }
 
+  .flex_container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+  }
+
   #hero_page h1 {
     margin-bottom: 10px;
   }
 
   .hero_button {
-    margin-top: 10px;
+    margin-top: 7px;
   }
 
   #about_me {
-    padding: 50px 50px;
+    padding: 0 20px;
   }
 
-  #skills_img {
+  #skills {
+    padding: 20px;
+  }
+
+  .tools,
+  .technologies {
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+
+  .icons {
+    gap: 30px;
+  }
+
+  #skill_icon {
     height: 50px;
   }
 
-  #skill_img {
-    height: 60px;
-    margin: 10px;
+  #head_icon {
+    height: 50px;
   }
 }
 
@@ -245,7 +293,8 @@
   }
 
   #hero_page {
-    padding: 15px 20px;
+    padding: 0px 20px;
+    margin: 10px 0;
     text-align: center;
   }
 
@@ -255,11 +304,13 @@
   }
 
   #about_me {
+    margin: 20px 0;
     padding: 20px;
   }
 
   #about_me h2 {
     font-size: 2.5rem;
+    margin: 0 0 20px;
   }
 
   .about_box_grid {
@@ -279,35 +330,14 @@
   }
 
   #skills {
-    padding: 50px 20px;
-    text-align: center;
+    margin: 20px 0;
   }
 
-  #skills h4 {
-    font-size: 1.8rem;
-  }
-
-  #skills_img {
+  #skill_icon {
     height: 40px;
   }
 
-  .skill_box {
-    margin: 10% 0;
-    padding: 5% 3%;
-  }
-
-  .tool_set,
-  .technology_set {
-    width: 100%;
-    margin: 5% auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-
-  #skill_img {
-    height: 50px;
-    margin: 10px;
+  #head_icon {
+    height: 40px;
   }
 }
