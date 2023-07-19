@@ -21,10 +21,10 @@
         crossorigin="anonymous"></script>
 
     <!-- User Stylesheet -->
-    <link rel="stylesheet" href="/Stylesheets/style-dark.css">
+    <link rel="stylesheet" href="../Stylesheets/style-dark.css">
 
     <!-- Favicon  -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/Social Icons/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
     <section id="navigation_bar">
         <nav class="navbar navbar-expand-lg navbar-dark body_medium">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="/Images/Logo and PFP/om_thakkar_logo_dark.png" alt="Brand Logo"
+                <a class="navbar-brand" href="#"><img src="../Images/Logo and PFP/om_thakkar_logo_dark.png" alt="Brand Logo"
                         id="brand_logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,13 +50,15 @@
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/index.html"><button type="button" class="btn btn-light nav-button primary_background"><img
-                                src="/Images/Social Icons/dark mode icons/dark-mode.svg" alt="" id="nav-icon"
-                                height="25px"></button></a>
+                            <a href="../index.html"><button type="button"
+                                    class="btn btn-light nav-button primary_background"><img
+                                        src="../Images/Social Icons/dark mode icons/dark-mode.svg" alt="" id="nav-icon"
+                                        height="25px"></button></a>
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-light nav-button primary_background body_medium">Resume
-                                <img src="/Images/Social Icons/dark mode icons/resume.svg" alt="" id="nav-icon" height="25px"> </button>
+                                <img src="../Images/Social Icons/dark mode icons/resume.svg" alt="" id="nav-icon"
+                                    height="25px"> </button>
                         </li>
                     </ul>
                 </div>
@@ -66,19 +68,18 @@
 
     <!-- Hero Page  -->
     <section id="hero_page">
-        <div class="container-fluid ">
-            <div class="row align-items-center justify-content-center">
-                <div class="col col-xl-9 col-lg-8 col-md-7 col-sm-12 order-sm-first order-md-first order-last hero_part px-4">
-                    <h1 class="heading_bold heading"><span class="accent_color">Hello, I'm </span>Om Thakkar!</h1>
-                    <p class="body_regular body">Passionate Computer Engineering Student at SPPU Pune, specializing in
-                        Front-End Web Development. Creating User-Friendly and Visually Stunning Websites to Enhance
-                        Online Experiences.</p>
-                    <button type="button" class="btn btn-light btn-lg primary_background hero_button body body_bold">
-                        Get In Touch </button>
-                </div>
-                <div class="col col-xl-3 col-lg-4 col-md-5 col-sm-12 order-sm-last order-md-last order-first hero_part">
-                    <img src="/Images/Logo and PFP/om-thakkar-profile-pic-circle-creative-dark.png" alt="" id="hero-img">
-                </div>
+        <div class="flex_container">
+            <div class="hero-content">
+                <h1 class="heading_bold heading"><span class="accent_color">Hello, I'm </span>Om Thakkar!</h1>
+                <p class="body_regular body">Passionate Computer Engineering Student at SPPU Pune, specializing in
+                    Front-End Web Development. Creating User-Friendly and Visually Stunning Websites to Enhance
+                    Online Experiences.</p>
+                <button type="button" class="btn btn-light btn-lg primary_background hero_button body body_bold">
+                    Get In Touch </button>
+            </div>
+            <div class="hero_image">
+                <img src="../Images/Logo and PFP/om-thakkar-profile-pic-circle-creative-dark.png" alt="Om Thakkar Profile Photo"
+                    id="hero_image">
             </div>
         </div>
     </section>
@@ -89,10 +90,22 @@
         <div class="about_box_grid body body_regular">
             <div class="about_box secondary_background">
                 <ul class="about_list">
-                    <li class="list_item">🌍 Picture this: In the vibrant city of Pune, amidst the bustling campus of your engineering college, I stand at the precipice of possibility. At just 21 years old, my eyes sparkle with ambition as I embark on <strong>a journey that will shape the future of web experiences.</strong> </li>
-                    <li class="list_item">🚀 My heart races with excitement as I dive headfirst into a world where innovation knows no bounds. Armed with a laptop and an unwavering determination, I am on a quest to <strong>create web experiences that leave users breathless.</strong></li>
-                    <li class="list_item">💡 The air crackles with electricity as I ignite my imagination, fueling my innovative spirit. Each idea you conceive holds the power to revolutionize the digital landscape, weaving together <strong>simplicity and elegance in a tapestry that captivates hearts and minds.</strong></li>
-                    <li class="list_item">✨ Like a modern-day alchemist, I dance at the <strong>intersection of technology and creativity</strong>, blending the elements of code and design to transmute ordinary websites into extraordinary experiences.</li>
+                    <li class="list_item">🌍 Picture this: In the vibrant city of Pune, amidst the bustling campus of
+                        my engineering college, I stand at the precipice of possibility. At just 21 years old, my eyes
+                        sparkle with ambition as I embark on <strong>a journey that will shape the future of web
+                            experiences.</strong> </li>
+                    <li class="list_item">🚀 My heart races with excitement as I dive headfirst into a world where
+                        innovation knows no bounds. Armed with a laptop and an unwavering determination, I am on a quest
+                        to <strong>create web experiences that leave users breathless.</strong></li>
+                    <li class="list_item">💡 The air crackles with electricity as I ignite my imagination, fueling my
+                        innovative spirit. Each idea I conceive holds the power to revolutionize the digital landscape,
+                        weaving together <strong>simplicity and elegance in a tapestry that captivates hearts and
+                            minds.</strong></li>
+                    <li class="list_item">✨ Like a modern-day alchemist, I dance at the <strong>intersection of
+                            technology and creativity</strong>, blending the elements of code and design to
+                        <strong>transmute
+                            ordinary websites into extraordinary experiences.</strong>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -101,11 +114,194 @@
     <!-- Skills  -->
     <section id="skills">
         <h2 class="heading_bold sub_heading">Skills</h2>
+        <div class="flex_container">
+            <div class="tools">
+                <div class="content">
+                    <img src="../Images/Social Icons/light mode icons/tools.svg" alt="Tools Icon" id="head_icon">
+                    <h2>Tools</h2>
+                </div>
+                <div class="icons">
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/canva.svg" alt="Canva Icon" id="skill_icon">
+                        <h5 class="body body_regular">Canva</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/figma-bold.svg" alt="Figma Icon" id="skill_icon">
+                        <h5 class="body body_regular">Figma</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/git.svg" alt="Git Icon" id="skill_icon">
+                        <h5 class="body body_regular">Git</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/social-github.svg" alt="GitHub Icon" id="skill_icon">
+                        <h5 class="body body_regular">GitHub</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/discord .svg" alt="Discord Icon" id="skill_icon">
+                        <h5 class="body body_regular">Discord</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/microsoftoffice.svg" alt="Office Icon" id="skill_icon">
+                        <h5 class="body body_regular">Office</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/blender.svg" alt="Blender Icon" id="skill_icon">
+                        <h5 class="body body_regular">Blender</h5>
+                    </span>
+                    <span class="tool">
+                        <img src="../Images/Social Icons/light mode icons/vs-code.svg" alt="VS-Code Icon" id="skill_icon">
+                        <h5 class="body body_regular">VS Code</h5>
+                    </span>
+                </div>
+            </div>
+            <div class="technologies">
+                <div class="content">
+                    <img src="../Images/Social Icons/light mode icons/internet.svg" alt="Internet Icon" id="head_icon">
+                    <h2>Technologies</h2>
+                </div>
+                <div class="icons">
+                    <span class="technology">
+                        <img src="../Images/Social Icons/light mode icons/social-html5.svg" alt="HTML Icon" id="skill_icon">
+                        <h5 class="body body_regular">HTML</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="../Images/Social Icons/light mode icons/social-css3.svg" alt="CSS Icon" id="skill_icon">
+                        <h5 class="body body_regular">CSS</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="../Images/Social Icons/light mode icons/language-javascript (1).svg" alt="JavaScript Icon" id="skill_icon">
+                        <h5 class="body body_regular">JavaScript</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="../Images/Social Icons/light mode icons/c.svg" alt="C Icon" id="skill_icon">
+                        <h5 class="body body_regular">C</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="../Images/Social Icons/light mode icons/social-python.svg" alt="Python Icon" id="skill_icon">
+                        <h5 class="body body_regular">Python</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="../Images/Social Icons/light mode icons/c ++.svg" alt="C++ Icon" id="skill_icon">
+                        <h5 class="body body_regular">C++</h5>
+                    </span>
+                    <span class="technology">
+                        <img src="../Images/Social Icons/light mode icons/bootstrap-fill.svg" alt="BootStrap Icon" id="skill_icon">
+                        <h5 class="body body_regular">Bootstrap</h5>
+                    </span>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Projects  -->
     <section id="projects">
+        <h2 class="heading_bold sub_heading">Projects</h2>
+        <div class="project_container">
+            <div class="card secondary_background">
+                <img class="card-img-top" src="../Images/Project Images/micorsoft.png" alt="Card image cap"
+                    id="card_image">
+                <div class="card-body">
+                    <h4 class="card-title heading_bold">Micorsoft Website Clone</h4>
+                    <p class="card-text">Welcome to the marvelous world of web development! 🎉 Immerse yourself in this first-ever project, a symphony of pure HTML and CSS, where the magic of flexbox and grid dances gracefully, bringing your creations to life! ✨</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item secondary_background"></li>
+                        <li class="list-group-item secondary_background">HTML + CSS</li>
+                        <li class="list-group-item secondary_background"></li>
+                    </ul>
+                    <div class="action_buttons">
+                        <a href="https://github.com/OmThakkar/Microsoft-Clone" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/social-github.svg" alt=""
+                                id="action_icons"><span>GitHub</span></a>
+                        <a href="https://omthakkar.github.io/Microsoft-Clone/" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/link.svg" alt="" id="action_icons"><span>
+                                Demo</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card secondary_background">
+                <img class="card-img-top" src="../Images/Project Images/diagnoze_no_bg.png" alt="Card image cap" id="card_image">
+                <div class="card-body">
+                    <h4 class="card-title heading_bold">Diagnoze</h4>
+                    <p class="card-text">Embark on a revolutionary healthcare journey with this all-in-one multi-disease prediction web application, empowering hospitals and labs to detect illnesses accurately and allocate care based on severity! 🏥</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item secondary_background"></li>
+                        <li class="list-group-item secondary_background">HTML + CSS + Various ML Models</li>
+                        <li class="list-group-item secondary_background"></li>
+                    </ul>
+                    <div class="action_buttons">
+                        <a href="" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/social-github.svg" alt=""
+                                id="action_icons"><span>GitHub</span></a>
+                        <a href="" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/link.svg" alt="" id="action_icons"><span>
+                                Demo</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card secondary_background">
+                <img class="card-img-top" src="../Images/Project Images/HeartMyHeart.png" alt="Card image cap"
+                    id="card_image">
+                <div class="card-body">
+                    <h4 class="card-title heading_bold">HeartMyHeart</h4>
+                    <p class="card-text">Unleash the power of early detection and precise diagnosis with this heartwarming web application for predicting heart disease! 💓 Embrace the journey towards better health, where cutting-edge technology and care converge to save lives! 💻🏥</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item secondary_background"></li>
+                        <li class="list-group-item secondary_background">HTML + CSS + ML Model (Decision Tree)</li>
+                        <li class="list-group-item secondary_background"></li>
+                    </ul>
+                    <div class="action_buttons">
+                        <a href="https://github.com/Prathamesh7291/40_P.U.L.S.E" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/social-github.svg" alt=""
+                                id="action_icons"><span>GitHub</span></a>
+                        <a href="" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/link.svg" alt="" id="action_icons"><span>
+                                Demo</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card secondary_background">
+                <img class="card-img-top" src="../Images/Project Images/torque.png" alt="Card image cap" id="card_image">
+                <div class="card-body">
+                    <h4 class="card-title heading_bold">Torque (Responsive)</h4>
+                    <p class="card-text">Discover the enchantment of a responsive website, skillfully woven with Bootstrap's magic! 🚀 When you resize the window, watch as the elements gracefully rearrange themselves, just like a beautifully choreographed ballet! 🩰</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item secondary_background"></li>
+                        <li class="list-group-item secondary_background">HTML + CSS + BootStrap</li>
+                        <li class="list-group-item secondary_background"></li>
+                    </ul>
+                    <div class="action_buttons">
+                        <a href="https://github.com/OmThakkar/Responsive-Front-End-Project" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/social-github.svg" alt=""
+                                id="action_icons"><span>GitHub</span></a>
+                        <a href="https://omthakkar.github.io/Responsive-Front-End-Project/" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/link.svg" alt="" id="action_icons"><span>
+                                Demo</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card secondary_background">
+                <img class="card-img-top" src="../Images/Project Images/GoodReads.png" alt="Card image cap" id="card_image">
+                <div class="card-body">
+                    <h4 class="card-title heading_bold">GoodReads</h4>
+                    <p class="card-text">Delight in a user-friendly library management system, effortlessly issuing and managing books with ease! 📚🚀 Embrace the joy of reading, as this web application brings the literary world to your fingertips! 🌟📖</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item secondary_background"></li>
+                        <li class="list-group-item secondary_background">HTML + CSS + PHP</li>
+                        <li class="list-group-item secondary_background"></li>
+                    </ul>
+                    <div class="action_buttons">
+                        <a href="" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/social-github.svg" alt=""
+                                id="action_icons"><span>GitHub</span></a>
+                        <a href="" target="_blank" class="action_button body_bold"><img
+                                src="../Images/Social Icons/light mode icons/link.svg" alt="" id="action_icons"><span>
+                                Demo</span></a>
+                    </div>
+                </div>
+            </div>
 
+        </div>
     </section>
 
     <!-- Contact Me  -->

@@ -224,6 +224,7 @@
 
 #card_image {
   border-bottom: 2px solid rgb(243, 243, 243);
+  border-radius: 7px;
 }
 
 .action_buttons {
