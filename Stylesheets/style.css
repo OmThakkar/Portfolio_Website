@@ -411,11 +411,15 @@ body {
 
   #hero_image {
     height: 200px;
-    margin: 10px;
+    margin: 10px 0 0;
   }
 
   .new_line {
     display: block;
+  }
+
+  .hero_button{
+    padding: 10px 15px;
   }
 
   #about_me {
