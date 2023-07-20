@@ -1,10 +1,5 @@
 /* Colors */
 :root {
-  /* --text-color: #030302;
-  --background-color: #ffffff;
-  --primary-color: #c5c6c3;
-  --secondary-color: #dcdcdb;
-  --accent-color: #767873; */
   --text-color: #050505;
   --background-color: #fafafa;
   --primary-color: #8fb3ff;
@@ -37,9 +32,6 @@
 .heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
-}
-
-.heading_bold {
   font-weight: 700;
 }
 
@@ -57,9 +49,6 @@
 .body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
-}
-
-.body_regular {
   font-weight: 400;
 }
 
@@ -103,6 +92,7 @@ body {
   justify-content: space-between;
   gap: 5px;
   padding: 10px 20px;
+  border-color: transparent;
 }
 
 .hero_button:hover,
@@ -143,8 +133,7 @@ body {
   margin-bottom: 30px;
 }
 
-#hero_page p{
-  padding: 0 10px;
+#hero_page p {
   line-height: 1.6;
 }
 
@@ -263,6 +252,7 @@ body {
 
 #projects hr {
   color: rgb(108, 108, 108);
+  margin: 0;
 }
 
 .action_buttons {
@@ -288,6 +278,7 @@ body {
 .list-group-item {
   background-color: var(--secondary-color);
   border-bottom: 2px solid rgb(194, 194, 194);
+  padding-left: 5px;
 }
 
 /* Contact Me */
@@ -415,6 +406,10 @@ body {
     text-align: center;
   }
 
+  #hero_page p {
+    padding: 0 10px;
+  }
+
   #hero_image {
     height: 200px;
     margin: 10px 0 0;
@@ -424,7 +419,7 @@ body {
     display: block;
   }
 
-  .hero_button{
+  .hero_button {
     padding: 10px 15px;
   }
 
