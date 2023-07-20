@@ -409,9 +409,9 @@ body {
     text-align: center;
   }
 
-  #hero-img {
-    height: 150px;
-    margin-bottom: 20px;
+  #hero_image {
+    height: 200px;
+    margin: 10px;
   }
 
   .new_line {
