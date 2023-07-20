@@ -65,6 +65,10 @@ body {
   color: var(--text-color);
 }
 
+.container-fluid{
+  --bs-gutter-x: 0;
+}
+
 /* Navbar */
 #navigation_bar {
   padding: 0 10%;
@@ -94,6 +98,7 @@ body {
   padding: 10px 20px;
   border-color: transparent;
 }
+
 
 .hero_button:hover,
 :not(.btn-check) + .btn:active,
@@ -227,7 +232,7 @@ body {
 
 .project_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 30px;
   flex-wrap: wrap;
 }
@@ -240,6 +245,12 @@ body {
   margin: 20px 0;
   padding: 10px;
 }
+/* 
+.project_container::after {
+  content: "";
+  width: 23rem;
+  height: 50px;
+} */
 
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px 0px;

@@ -229,7 +229,7 @@ body {
 
 .project_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 30px;
   flex-wrap: wrap;
 }
@@ -237,14 +237,20 @@ body {
 .card {
   border: none;
   width: 23rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 5px 15px 0px;
   border-radius: 10px;
   margin: 20px 0;
   padding: 10px;
 }
 
+/* .project_container::after {
+  content: "";
+  width: 23rem;
+  height: 50px;
+} */
+
 .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px 0px;
+  box-shadow: rgba(112, 112, 112, 0.3) 0px 10px 20px 0px;
   transition: box-shadow 0.5s ease-in-out;
 }
 
