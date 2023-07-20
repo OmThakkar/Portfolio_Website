@@ -112,6 +112,7 @@ body {
   background-color: var(--primary-color);
   transform: translate(0, -3px);
   box-shadow: 0 20px 80px -10px var(--primary-color);
+  border-color: transparent;
 }
 
 .nav-button.secondary_background:hover {
@@ -140,6 +141,11 @@ body {
 
 #hero_page h1 {
   margin-bottom: 30px;
+}
+
+#hero_page p{
+  padding: 0 10px;
+  line-height: 1.6;
 }
 
 .hero_button {
