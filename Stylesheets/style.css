@@ -65,7 +65,7 @@ body {
   color: var(--text-color);
 }
 
-.container-fluid{
+.container-fluid {
   --bs-gutter-x: 0;
 }
 
@@ -98,7 +98,6 @@ body {
   padding: 10px 20px;
   border-color: transparent;
 }
-
 
 .hero_button:hover,
 :not(.btn-check) + .btn:active,
@@ -169,6 +168,7 @@ body {
   border-radius: 10px;
   padding: 2% 5%;
   line-height: 1.5;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .about_list {
@@ -280,6 +280,9 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 #action_icons {
@@ -287,7 +290,6 @@ body {
 }
 
 .list-group-item {
-  background-color: var(--secondary-color);
   border-bottom: 2px solid rgb(194, 194, 194);
   padding-left: 5px;
 }
@@ -373,7 +375,7 @@ body {
     width: 100%;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
   }
 
   .icons {
